@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/id_touristy"
+        android:layout_width="432dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="16dp"
+        android:foregroundGravity="center_vertical|center|center_horizontal"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="@string/touristy_Main"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="360dp"
+        android:layout_height="81dp"
+        android:layout_margin="20dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_touristy">
+
+        <!-- Inside text input layout add
+              an auto complete text view
+                and make its input type to none-->
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView_city"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginEnd="32dp"
+            android:layout_weight="1"
+            android:inputType="none"
+            android:text="@string/select_city"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/id_search"
+        android:layout_width="144dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="133dp"
+        android:layout_marginTop="456dp"
+        android:layout_marginEnd="134dp"
+        android:text="@string/submit_main"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_touristy" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="407dp"
+        android:layout_height="96dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="156dp"
+        android:layout_marginEnd="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout">
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView_placeType"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:layout_weight="1"
+            android:inputType="none"
+            android:text="@string/select_type_of_place" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,131 @@
+{
+	"cities": 
+	[
+	    {
+			"city_id": 1,
+			"city_name": "Wroclaw",
+			"places": [
+				{
+					"place_id": 1,
+					"place_name": "Wroclaw Architecture Museum",
+					"place_address": " ",
+					"place_rating": 4,
+					"place_description": "",
+					"img_url": ""
+				},
+
+				{
+					"place_id": 2,
+					"place_name": "Wroclaw National History Museum",
+					"place_address": " ",
+					"place_rating": 4,
+					"place_description": "",
+					"img_url": ""
+				},
+				{
+					"place_id": 3,
+					"place_name": "Wroclaw Zoo",
+					"place_address": "",
+					"place_rating": 4,
+					"place_description": "",
+					"img_url": ""
+				},
+				{
+					"place_id": 4,
+					"place_name": "Hala Stulecha",
+					"place_address": "",
+					"place_rating": 4.5,
+					"place_description": "",
+					"img_url": ""
+				}
+			]
+		
+		}
+	,
+
+		{
+			"city_id": 2,
+			"city_name": "Warsaw",
+			"places": [
+				{
+					"place_id": 1,
+					"place_name": "Warsaw Uprising Museum",
+					"place_address": " ",
+					"place_rating": 4,
+					"place_description": "",
+					"img_url": ""
+				},
+		 
+		        {
+					"place_id": 2,
+					"place_name": "Warsaw National History Museum",
+					"place_address": " ",
+					"place_rating": 4,
+					"place_description": "",
+					"img_url": ""
+				},
+		
+	            {
+					"place_id": 3,
+					"place_name": "The Royal Castle",
+					"place_address": "",
+					"place_rating": 4,
+					"place_description": "",
+					"img_url": ""
+				},
+		
+		        {
+		   			"place_id": 3,
+					"place_name": "Palace of Culture and Science",
+					"place_address": "",
+					"place_rating": 4,
+					"place_description": "",
+					"img_url": ""
+				}
+			]
+		},
+
+		{
+			"city_id": 3,
+			"city_name": "Krakow",
+			"places": 
+			[
+				{
+					"place_id": 1,
+					"place_name": "Warsaw Uprising Museum",
+					"place_address": " ",
+					"place_rating": 4,
+					"place_description": "",
+					"img_url": ""
+				},
+		 
+		{
+					"place_id": 2,
+					"place_name": "Warsaw National History Museum",
+					"place_address": " ",
+					"place_rating": 4,
+					"place_description": "",
+					"img_url": ""
+				},
+		
+	    {
+					"place_id": 3,
+					"place_name": "The Royal Castle",
+					"place_address": "",
+					"place_rating": 4,
+					"place_description": "",
+					"img_url": ""
+				},
+		
+		{
+					"place_id": 3,
+					"place_name": "Palace of Culture and Science",
+					"place_address": "",
+					"place_rating": 4,
+					"place_description": "",
+					"img_url": ""
+				}
+			]
+		}
+	]
+}

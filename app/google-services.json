@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "302744909315",
+    "firebase_url": "https://touristy-8369c-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "touristy-8369c",
+    "storage_bucket": "touristy-8369c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:302744909315:android:59d5fbe8a6d9630f868036",
+        "android_client_info": {
+          "package_name": "com.multi_media.touristy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "302744909315-pgo3223sam26l934j7dola7greae3jd8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.multi_media.touristy",
+            "certificate_hash": "ba8c8835a135e127883963ad180fe7ad3a76a2ca"
+          }
+        },
+        {
+          "client_id": "302744909315-40qaqhepdu57m67rhhrjhc6644hnasvv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAodlYgI2RcPk4JTP0kV1yKTF4lzOu7hGU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "302744909315-40qaqhepdu57m67rhhrjhc6644hnasvv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

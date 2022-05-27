@@ -1,0 +1,370 @@
+{
+	"cities": 
+	{
+		"Wroclaw": 
+		{
+			"city_id": 1,
+			"city_name": "Wroclaw",
+			"type_Restaurants": 
+			{
+				"LA Madellana": {
+					"place_id": 1,
+					"place_name": "LA Madellana",
+					"place_address": " ",
+					"place_rating": 4,
+					"place_description": "",
+					"img_url": ""
+				},
+				"OK Wine Bar": {
+					"place_id": 2,
+					"place_name": "OK Wine Bar",
+					"place_address": " ",
+					"place_rating": 4,
+					"place_description": "",
+					"img_url": ""
+				},
+				"Whiskey in the Jar": {
+					"place_id": 2,
+					"place_name": "Whiskey in the Jar",
+					"place_address": " ",
+					"place_rating": 4,
+					"place_description": "",
+					"img_url": ""
+				},
+				"Sushi Kushi": {
+					"place_id": 2,
+					"place_name": "Sushi Kushi",
+					"place_address": " ",
+					"place_rating": 4,
+					"place_description": "",
+					"img_url": ""
+				}
+			},
+			"type_Museums": 
+			{
+				"Wroclaw Architecture Museum": {
+					"place_id": 1,
+					"place_name": "Wroclaw Architecture Museum",
+					"place_address": " ",
+					"place_rating": 4,
+					"place_description": "",
+					"img_url": ""
+				},
+				"Wroclaw National History Museum": {
+					"place_id": 2,
+					"place_name": "Wroclaw National History Museum",
+					"place_address": " ",
+					"place_rating": 4,
+					"place_description": "",
+					"img_url": ""
+				},
+				"Wroclaw Museum of Contemporary Art": {
+					"place_id": 2,
+					"place_name": "Wroclaw Museum of Contemporary Art",
+					"place_address": " ",
+					"place_rating": 4,
+					"place_description": "",
+					"img_url": ""
+				}
+			},
+			"type_Others": 
+			{
+				"Hala Stulecha": {
+					"place_id": 1,
+					"place_name": "Hala Stulecha",
+					"place_address": " ",
+					"place_rating": 4,
+					"place_description": "",
+					"img_url": ""
+				},
+				"Wroclaw Zoo": {
+					"place_id": 2,
+					"place_name": "Wroclaw Zoo",
+					"place_address": " ",
+					"place_rating": 4,
+					"place_description": "",
+					"img_url": ""
+				},
+				"Wroclaw Rynek": {
+					"place_id": 2,
+					"place_name": "Wroclaw Rynek",
+					"place_address": " ",
+					"place_rating": 4,
+					"place_description": "",
+					"img_url": ""
+				}
+			}
+		},
+		"Warsaw": 
+		{
+			"city_id": 2,
+			"city_name": "Warsaw",
+			"type_Restaurants": {
+				"LA Madellana": {
+					"place_id": 1,
+					"place_name": "LA Madellana",
+					"place_address": " ",
+					"place_rating": 4,
+					"place_description": "",
+					"img_url": ""
+				},
+				"OK Wine Bar": {
+					"place_id": 2,
+					"place_name": "OK Wine Bar",
+					"place_address": " ",
+					"place_rating": 4,
+					"place_description": "",
+					"img_url": ""
+				},
+				"Whiskey in the Jar": {
+					"place_id": 2,
+					"place_name": "Whiskey in the Jar",
+					"place_address": " ",
+					"place_rating": 4,
+					"place_description": "",
+					"img_url": ""
+				},
+				"Sushi Kushi": {
+					"place_id": 2,
+					"place_name": "Sushi Kushi",
+					"place_address": " ",
+					"place_rating": 4,
+					"place_description": "",
+					"img_url": ""
+				}
+			},
+			"type_Museums": {
+				"Wroclaw Architecture Museum": {
+					"place_id": 1,
+					"place_name": "Wroclaw Architecture Museum",
+					"place_address": " ",
+					"place_rating": 4,
+					"place_description": "",
+					"img_url": ""
+				},
+				"Wroclaw National History Museum": {
+					"place_id": 2,
+					"place_name": "Wroclaw National History Museum",
+					"place_address": " ",
+					"place_rating": 4,
+					"place_description": "",
+					"img_url": ""
+				},
+				"Wroclaw Museum of Contemporary Art": {
+					"place_id": 2,
+					"place_name": "Wroclaw Museum of Contemporary Art",
+					"place_address": " ",
+					"place_rating": 4,
+					"place_description": "",
+					"img_url": ""
+				}
+			},
+			"type_Others": {
+				"Hala Stulecha": {
+					"place_id": 1,
+					"place_name": "Hala Stulecha",
+					"place_address": " ",
+					"place_rating": 4,
+					"place_description": "",
+					"img_url": ""
+				},
+				"Wroclaw Zoo": {
+					"place_id": 2,
+					"place_name": "Wroclaw Zoo",
+					"place_address": " ",
+					"place_rating": 4,
+					"place_description": "",
+					"img_url": ""
+				},
+				"Wroclaw Rynek": {
+					"place_id": 2,
+					"place_name": "Wroclaw Rynek",
+					"place_address": " ",
+					"place_rating": 4,
+					"place_description": "",
+					"img_url": ""
+				}
+			}
+		},
+		"Krakow": {
+			"city_id": 3,
+			"city_name": "Krakow",
+			"type_Restaurants": {
+				"LA Madellana": {
+					"place_id": 1,
+					"place_name": "LA Madellana",
+					"place_address": " ",
+					"place_rating": 4,
+					"place_description": "",
+					"img_url": ""
+				},
+				"OK Wine Bar": {
+					"place_id": 2,
+					"place_name": "OK Wine Bar",
+					"place_address": " ",
+					"place_rating": 4,
+					"place_description": "",
+					"img_url": ""
+				},
+				"Whiskey in the Jar": {
+					"place_id": 2,
+					"place_name": "Whiskey in the Jar",
+					"place_address": " ",
+					"place_rating": 4,
+					"place_description": "",
+					"img_url": ""
+				},
+				"Sushi Kushi": {
+					"place_id": 2,
+					"place_name": "Sushi Kushi",
+					"place_address": " ",
+					"place_rating": 4,
+					"place_description": "",
+					"img_url": ""
+				}
+			},
+			"type_Museums": {
+				"Wroclaw Architecture Museum": {
+					"place_id": 1,
+					"place_name": "Wroclaw Architecture Museum",
+					"place_address": " ",
+					"place_rating": 4,
+					"place_description": "",
+					"img_url": ""
+				},
+				"Wroclaw National History Museum": {
+					"place_id": 2,
+					"place_name": "Wroclaw National History Museum",
+					"place_address": " ",
+					"place_rating": 4,
+					"place_description": "",
+					"img_url": ""
+				},
+				"Wroclaw Museum of Contemporary Art": {
+					"place_id": 2,
+					"place_name": "Wroclaw Museum of Contemporary Art",
+					"place_address": " ",
+					"place_rating": 4,
+					"place_description": "",
+					"img_url": ""
+				}
+			},
+			"type_Others": {
+				"Hala Stulecha": {
+					"place_id": 1,
+					"place_name": "Hala Stulecha",
+					"place_address": " ",
+					"place_rating": 4,
+					"place_description": "",
+					"img_url": ""
+				},
+				"Wroclaw Zoo": {
+					"place_id": 2,
+					"place_name": "Wroclaw Zoo",
+					"place_address": " ",
+					"place_rating": 4,
+					"place_description": "",
+					"img_url": ""
+				},
+				"Wroclaw Rynek": {
+					"place_id": 2,
+					"place_name": "Wroclaw Rynek",
+					"place_address": " ",
+					"place_rating": 4,
+					"place_description": "",
+					"img_url": ""
+				}
+			}
+		}, 
+		"Gdansk" : {
+			"city_id": 4,
+			"city_name": "Gdansk",
+			"type_Restaurants": {
+				"LA Madellana": {
+					"place_id": 1,
+					"place_name": "LA Madellana",
+					"place_address": " ",
+					"place_rating": 4,
+					"place_description": "",
+					"img_url": ""
+				},
+				"OK Wine Bar": {
+					"place_id": 2,
+					"place_name": "OK Wine Bar",
+					"place_address": " ",
+					"place_rating": 4,
+					"place_description": "",
+					"img_url": ""
+				},
+				"Whiskey in the Jar": {
+					"place_id": 2,
+					"place_name": "Whiskey in the Jar",
+					"place_address": " ",
+					"place_rating": 4,
+					"place_description": "",
+					"img_url": ""
+				},
+				"Sushi Kushi": {
+					"place_id": 2,
+					"place_name": "Sushi Kushi",
+					"place_address": " ",
+					"place_rating": 4,
+					"place_description": "",
+					"img_url": ""
+				}
+			},
+			"type_Museums": {
+				"Wroclaw Architecture Museum": {
+					"place_id": 1,
+					"place_name": "Wroclaw Architecture Museum",
+					"place_address": " ",
+					"place_rating": 4,
+					"place_description": "",
+					"img_url": ""
+				},
+				"Wroclaw National History Museum": {
+					"place_id": 2,
+					"place_name": "Wroclaw National History Museum",
+					"place_address": " ",
+					"place_rating": 4,
+					"place_description": "",
+					"img_url": ""
+				},
+				"Wroclaw Museum of Contemporary Art": {
+					"place_id": 2,
+					"place_name": "Wroclaw Museum of Contemporary Art",
+					"place_address": " ",
+					"place_rating": 4,
+					"place_description": "",
+					"img_url": ""
+				}
+			},
+			"type_Others": {
+				"Hala Stulecha": {
+					"place_id": 1,
+					"place_name": "Hala Stulecha",
+					"place_address": " ",
+					"place_rating": 4,
+					"place_description": "",
+					"img_url": ""
+				},
+				"Wroclaw Zoo": {
+					"place_id": 2,
+					"place_name": "Wroclaw Zoo",
+					"place_address": " ",
+					"place_rating": 4,
+					"place_description": "",
+					"img_url": ""
+				},
+				"Wroclaw Rynek": {
+					"place_id": 2,
+					"place_name": "Wroclaw Rynek",
+					"place_address": " ",
+					"place_rating": 4,
+					"place_description": "",
+					"img_url": ""
+				}
+			}
+		}
+	}
+}
