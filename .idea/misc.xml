@@ -4,12 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Mustafa/OneDrive/Documents/GitHub/Multi_Media_Project/app/src/main/res/layout/activity_home.xml" value="0.18" />
-        <entry key="..\:/Users/Mustafa/OneDrive/Documents/GitHub/Multi_Media_Project/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/Mustafa/OneDrive/Documents/GitHub/Multi_Media_Project/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/Mustafa/OneDrive/Documents/GitHub/Multi_Media_Project/app/src/main/res/layout/activity_place_detail.xml" value="0.2125" />
         <entry key="..\:/Users/Mustafa/OneDrive/Documents/GitHub/Multi_Media_Project/app/src/main/res/layout/activity_places.xml" value="0.2125" />
         <entry key="..\:/Users/Mustafa/OneDrive/Documents/GitHub/Multi_Media_Project/app/src/main/res/layout/dropdown_item_city.xml" value="0.14921875" />
         <entry key="..\:/Users/Mustafa/OneDrive/Documents/GitHub/Multi_Media_Project/app/src/main/res/layout/dropdown_item_placeType.xml" value="0.14921875" />
         <entry key="..\:/Users/Mustafa/OneDrive/Documents/GitHub/Multi_Media_Project/app/src/main/res/layout/dropdown_item_place_type.xml" value="0.14921875" />
+        <entry key="..\:/Users/Mustafa/OneDrive/Documents/GitHub/Multi_Media_Project/app/src/main/res/layout/places_list.xml" value="0.1875" />
       </map>
     </option>
   </component>

@@ -7,20 +7,6 @@
     tools:context=".MainActivity">
 
 
-    <TextView
-        android:id="@+id/id_touristy"
-        android:layout_width="432dp"
-        android:layout_height="65dp"
-        android:layout_marginTop="16dp"
-        android:foregroundGravity="center_vertical|center|center_horizontal"
-        android:gravity="center|center_horizontal|center_vertical"
-        android:text="@string/touristy_Main"
-        android:textSize="30sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.523"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayout"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
@@ -28,12 +14,11 @@
         android:layout_height="81dp"
         android:layout_margin="20dp"
         android:layout_marginStart="2dp"
-        android:layout_marginTop="72dp"
         android:layout_marginEnd="2dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/id_touristy">
+        tools:layout_editor_absoluteY="101dp">
 
         <!-- Inside text input layout add
               an auto complete text view
@@ -56,23 +41,22 @@
         android:layout_width="144dp"
         android:layout_height="67dp"
         android:layout_marginStart="133dp"
-        android:layout_marginTop="456dp"
         android:layout_marginEnd="134dp"
         android:text="@string/submit_main"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/id_touristy" />
+        tools:layout_editor_absoluteY="451dp" />
 
     <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="407dp"
-        android:layout_height="96dp"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="355dp"
+        android:layout_height="92dp"
         android:layout_marginStart="2dp"
-        android:layout_marginTop="156dp"
+        android:layout_marginTop="76dp"
         android:layout_marginEnd="2dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.346"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout">
 
