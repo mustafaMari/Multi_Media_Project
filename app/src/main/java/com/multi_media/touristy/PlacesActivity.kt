@@ -11,7 +11,10 @@ import com.google.firebase.database.*
 
 import com.multi_media.touristy.Constants.Companion.CITY
 import com.multi_media.touristy.Constants.Companion.PLACE_TYPE
+import com.multi_media.touristy.Constants.Companion.PLACE_NAME
+
 import android.R.drawable
+import android.content.Intent
 import android.content.res.Resources
 import java.lang.reflect.Field
 
@@ -22,13 +25,16 @@ class PlacesActivity : AppCompatActivity() {
     lateinit var placeNames: ArrayList<String>
     lateinit var placeDesc: ArrayList<String>
     lateinit var placeImgIds: ArrayList<Int>
+    lateinit var cityName : String
+    lateinit var placeType : String
+    var resID  = 0
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_places)
 
         listView = findViewById<ListView>(R.id.listView)
-        val cityName = intent.getStringExtra("CITY")
-        val placeType = "type_" + intent.getStringExtra("PLACE_TYPE")
+        cityName = intent.getStringExtra("CITY").toString()
+        placeType = "type_" + intent.getStringExtra("PLACE_TYPE")
         var database: DatabaseReference = FirebaseDatabase.getInstance().reference
         val placeRef: DatabaseReference =
             database.child("cities").child(cityName!!).child(placeType)
@@ -65,24 +71,14 @@ class PlacesActivity : AppCompatActivity() {
 
             println("this is place name " + place["place_name"])
             placeNames.add(place["place_name"] as String)
-            placeDesc.add(place["place_description"] as String)
-            println("this is place    " +place["img_url"])
-//            var id: Int =
-//                Resources.getSystem()
-//            val resID = resources.getIdentifier(
-//                mDrawableName, "drawable",
-//                packageName
-//            )
-//            println("this is id " +id)
-////            val res: Class<*> = drawable::class.java
-////            val field: Field = res.getField(place["image_url"] as String)
-////            field.getInt(null)
-//
-            placeImgIds.add(0)
+            resID = resources.getIdentifier(
+                place["img_url"] as String?, "drawable",
+                packageName
+            )
+            placeImgIds.add(resID)
 
         }
-
-        val myListAdapter = MyListAdapter(this, placeNames, placeDesc, placeImgIds)
+        val myListAdapter = MyListAdapter(this, placeNames, placeImgIds)
         listView.adapter = myListAdapter
 
         listView.setOnItemClickListener() { adapterView, view, position, id ->
@@ -93,6 +89,17 @@ class PlacesActivity : AppCompatActivity() {
                 "Click on item at $itemAtPos its item id $itemIdAtPos",
                 Toast.LENGTH_LONG
             ).show()
+            val mCity = cityName
+            val mPlaceType = placeType
+            val intent = Intent(this, PlaceDetailActivity::class.java).apply {
+                putExtra(CITY, mCity)
+                putExtra(PLACE_TYPE, mPlaceType)
+                putExtra(PLACE_NAME, itemAtPos.toString())
+
+            }
+            finish()
+            startActivity(intent)
+        }
         }
     }
-}
+

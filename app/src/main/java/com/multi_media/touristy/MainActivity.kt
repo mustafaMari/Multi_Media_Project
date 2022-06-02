@@ -45,10 +45,6 @@ class MainActivity : AppCompatActivity() {
 
         displayCitiesAndReturnCity(cityList)
 
-        println( " my_places places "+placeTypes)
-
-
-
 
 
     }

@@ -15,10 +15,6 @@ class HomeActivity : AppCompatActivity() {
         setContentView(R.layout.activity_home)
         val f = FirebaseData()
 
-//          f.getCities()
-//            println("places now")
-//            f.getPlaceTypes("Wroclaw")
-//            f.getPlacesOfaPlaceType("Wroclaw", "type_Museums")
               (f.getPlaceDetail("Wroclaw", "type_Museums", "Wroclaw Architecture Museum"))
                val buttonClick = findViewById<Button>(R.id.id_explore)
         buttonClick.setOnClickListener {
