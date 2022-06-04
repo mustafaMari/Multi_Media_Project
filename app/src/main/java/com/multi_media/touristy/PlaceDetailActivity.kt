@@ -53,17 +53,17 @@ class PlaceDetailActivity : AppCompatActivity() {
 
 
     fun getPlaceDetail(placeDetail: Map<String, Any>){
-        val title = placeDetail["place_name"] as String
-        val description = placeDetail["place_description"] as String
-        val rating =  placeDetail["place_rating"] as Long
+        val title = (placeDetail["place_name"])!! as String
+        val description = (placeDetail["place_description"])!! as String
+        val rating =  (placeDetail["place_rating"])!! as Long
         val ratingText = "Rated : $rating/10 "
         val resID = resources.getIdentifier(
             placeDetail["img_url"]as String?, "drawable",
             packageName
         )
-         placeTitle.setText(title)
-        placeDescription.setText(description)
-        placeRatings.setText(ratingText)
+        placeTitle.text = title
+        placeDescription.text = description
+        placeRatings.text = ratingText
         placeImg.setImageResource(resID)
 
 
