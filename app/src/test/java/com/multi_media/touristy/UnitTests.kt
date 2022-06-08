@@ -1,6 +1,5 @@
 package com.multi_media.touristy
 
-import com.multi_media.touristy.Utils
 import org.junit.Test
 
 import org.junit.Assert.*
@@ -46,7 +45,7 @@ class UnitTests{
     @Test
     fun checkPlaceRating() {
         var myUtils: Utils = Utils()
-        assert(!(myUtils.checkPlaceRating("not a int")))
+        assert(!(myUtils.checkPlaceRating("not an int")))
         assert(myUtils.checkPlaceRating(3))
         assert(!(myUtils.checkPlaceRating(4.6)))
 
